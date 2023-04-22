@@ -1,5 +1,5 @@
 {
-  "name": "clicks-checker",
+  "name": "vite-library-template",
   "private": false,
   "version": "0.0.0",
   "type": "module",
@@ -16,12 +16,12 @@
   "files": [
     "dist"
   ],
-  "main": "dist/clicks-checker.js",
-  "module": "./dist/clicks-checker.js",
+  "main": "dist/vite-library-template.js",
+  "module": "./dist/vite-library-template.js",
   "exports": {
     ".": {
-      "import": "./dist/clicks-checker.js",
-      "require": "./dist/clicks-checker.umd.cjs"
+      "import": "./dist/vite-library-template.js",
+      "require": "./dist/vite-library-template.umd.cjs"
     }
   },
   "devDependencies": {
