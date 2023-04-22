@@ -1,0 +1,32 @@
+{
+  "name": "my-lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "zenekezene",
+  "keywords": [],
+  "scripts": {
+    "dev": "vite",
+    "build": "node lib-name-mapper.js && vite build",
+    "preview": "vite preview",
+    "update-lib-name": "node lib-name-mapper.js"
+  },
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/my-lib.js",
+  "module": "./dist/my-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "require": "./dist/my-lib.umd.cjs"
+    }
+  },
+  "devDependencies": {
+    "vite": "^4.3.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
