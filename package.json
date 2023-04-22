@@ -1,6 +1,6 @@
 {
-  "name": "my-lib",
-  "private": true,
+  "name": "clicks-checker",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "author": "zenekezene",
@@ -16,12 +16,12 @@
   "files": [
     "dist"
   ],
-  "main": "dist/my-lib.js",
-  "module": "./dist/my-lib.js",
+  "main": "dist/clicks-checker.js",
+  "module": "./dist/clicks-checker.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/clicks-checker.js",
+      "require": "./dist/clicks-checker.umd.cjs"
     }
   },
   "devDependencies": {
